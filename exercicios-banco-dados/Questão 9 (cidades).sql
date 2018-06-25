@@ -1,0 +1,1 @@
+SELECT cidade, LEN(cidade)'QUANTIDADE DE CARACTERES' FROM cidades WHERE LEN(cidade) = 10;
