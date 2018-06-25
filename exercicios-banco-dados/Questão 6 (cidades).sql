@@ -1,0 +1,1 @@
+SELECT cidade FROM cidades WHERE LEN(cidade) > 15 ORDER BY LEN(cidade);
