@@ -1,0 +1,1 @@
+SELECT AVG(nota_2) 'MÉDIA DE TODAS AS NOTAS 2' FROM alunos;
