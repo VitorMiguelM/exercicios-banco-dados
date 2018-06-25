@@ -1,2 +1,2 @@
 ﻿
- SELECT id, nome, codigo, categoria, altura, peso, hp, ataque, defesa, especial_ataque, especial_defesa, velocidade, descricao FROM pokemons;
+ SELECT ataque, especial_ataque, especial_defesa, defesa FROM pokemons;
