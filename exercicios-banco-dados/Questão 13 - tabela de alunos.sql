@@ -1,0 +1,1 @@
+SELECT nome, nota_1, nota_2, nota_3, nota_4, (nota_1 + nota_2 + nota_3 + nota_4/4)'MÉDIA DAS NOTAS' FROM alunos WHERE  'MÉDIA DAS NOTAS' = (SELECT MAX('MÉDIA DAS NOTAS') FROM alunos);   
