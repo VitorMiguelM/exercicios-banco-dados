@@ -1,0 +1,1 @@
+SELECT nome, nota_1 FROM alunos WHERE nota_1 > 9;
