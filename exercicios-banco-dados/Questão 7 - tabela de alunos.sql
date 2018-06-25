@@ -1,0 +1,1 @@
+SELECT  nome FROM alunos SELECT  MIN(nota_1) 'MENOR NOTA 1' FROM alunos;
