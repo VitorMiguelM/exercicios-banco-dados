@@ -1,0 +1,1 @@
+SELECT estado, cidade FROM cidades WHERE cidade LIKE '%TUBA' ORDER BY estado DESC;
