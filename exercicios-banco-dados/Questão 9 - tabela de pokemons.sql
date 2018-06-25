@@ -1,3 +1,3 @@
-﻿SELECT nome, categoria, ataque FROM pokemons WHERE ataque = (SELECT MIN(ataque) FROM pokemons);
+﻿SELECT ataque, especial_ataque, nome, defesa, especial_defesa FROM pokemons ORDER BY ataque;
 
---Selecione nome, categoria, e ataque do pokemon que contém o menor valor de ataque.
+-- Selecione o ataque, ataque especial, nome, defesa e defesa especial ordenando pelo ataque.
