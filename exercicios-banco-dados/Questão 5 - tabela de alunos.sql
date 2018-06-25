@@ -1,0 +1,1 @@
+SELECT SUM(nota_1) 'SOMA DE TODAS AS NOTAS 1' FROM alunos;
