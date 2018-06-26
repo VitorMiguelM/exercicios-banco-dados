@@ -1,1 +1,0 @@
-SELECT (nota_1 + nota_2 + nota_3 + nota_4)/4 'MÉDIA DE JOSEFINA' FROM alunos WHERE nome = 'Josefina';
