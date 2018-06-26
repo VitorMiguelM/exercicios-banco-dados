@@ -1,0 +1,1 @@
+SELECT COUNT(nome)'QUANTIDADE DE ALUNOS COM A MÉDIA MAIOR QUE 7' FROM alunos WHERE (nota_1 + nota_2 + nota_3 + nota_4)/4  > 7; 
