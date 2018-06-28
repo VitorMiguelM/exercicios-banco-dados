@@ -16,8 +16,8 @@
 
 -- UPDATE alunos SET nick = 'DOBERMANN', cor_preferida = 'ROSA' WHERE nick = 'SAXIOL';
 
--- UPDATE alunos SET DAY(data_nascimento) = 30 WHERE DAY(data_nascimento) = 31; INCORRETO (X)
+-- UPDATE alunos SET data_nascimento = DATETIMEFROMPARTS(YEAR(data_nascimento), MONTH(data_nascimento), 30) WHERE DAY(data_nascimento) = 31; 
 
 -- UPDATE alunos SET cor_preferida = 'ROXO', nick = 'ROXOLANDIA' WHERE cor_preferida = 'ROXO' OR cor_preferida = 'CORAL';
 
--- UPDATE alunos SET MONTH(data_nascimento) = 06, YEAR(data_nascimento) = 2018 WHERE   INCOMPLETA(X), INCORRETA(X);
+-- UPDATE alunos SET data_nascimento = DATEFROMPARTS(2018, 06, DAY(data_nascimento)) WHERE MONTH(data_nascimento) = 07;
