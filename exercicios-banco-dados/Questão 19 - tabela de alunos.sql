@@ -1,0 +1,1 @@
+SELECT nome,YEAR(data_nascimento)'ANO DE NASCIMENTO' FROM alunos;

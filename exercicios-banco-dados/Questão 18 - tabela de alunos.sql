@@ -1,0 +1,1 @@
+SELECT nome, cor_preferida FROM alunos WHERE cor_preferida = 'OURO' OR cor_preferida = 'AMARELO-TORRADO' AND (nota_1 + nota_2 + nota_3 + nota_4)/4 > 6.5;

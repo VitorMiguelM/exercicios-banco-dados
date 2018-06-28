@@ -1,0 +1,1 @@
+SELECT COUNT(nome) 'QUANTIDADE DE PESSOAS QUE NASCERAM EM 2/2/1964 ou 2/2/1994' FROM alunos WHERE DAY(data_nascimento) = 2 AND MONTH(data_nascimento) = 2 AND YEAR(data_nascimento) = 1964 OR YEAR(data_nascimento) = 1994;
