@@ -31,5 +31,9 @@ INSERT INTO carros (id_pessoa, marca, modelo, ano_lancamento, ano_fabricacao, mo
 ((SELECT id FROM pessoas WHERE nome = 'Samuel Faria'), 'Renault', 'Clio', 1997, 1996, '1.0 8v', 'Verde', 5500.00),
 ((SELECT id FROM pessoas WHERE nome = 'Florêncio Robalo'), 'VolksWagen', 'Golf', 1994, 1994, '2.0 120cv', 'Azul', 17000.00);
 
-SELECT * FROM pessoas;
-SELECT * FROM carros;
+-- Execute os comandos abaixo conforme o descrito:
+-- i. Liste os carros juntamente com o dono do carro
+-- ii. Liste os carros do Samuel
+
+-- SELECT carros.modelo, pessoas.nome FROM pessoas JOIN carros ON (carros.id_pessoa = pessoas.id);
+-- SELECT carros.modelo, pessoas.nome FROM carros JOIN pessoas ON (pessoas.id = carros.id_pessoa) WHERE pessoas.nome LIKE '%Samuel%';
